@@ -1,4 +1,4 @@
-class Programmers_lv1_1 {   // 숫자 문자열과 영단어
+class Prgrms_lv1_81301 {   // 숫자 문자열과 영단어
 
     public int advancedSolution(String s) {
         String[] words = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
@@ -44,7 +44,7 @@ class Programmers_lv1_1 {   // 숫자 문자열과 영단어
 
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder();
-        Programmers_lv1_1 prgrms = new Programmers_lv1_1();
+        Prgrms_lv1_81301 prgrms = new Prgrms_lv1_81301();
 
         int result = prgrms.advancedSolution("one4seveneight");
         sb.append(result).append('\n');

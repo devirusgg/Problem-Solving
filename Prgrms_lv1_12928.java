@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class Programmers_lv1_2 {    // 약수의 합
+public class Prgrms_lv1_12928 {    // 약수의 합
 
     public int solution(int n) {
         int len = n / 2;
@@ -27,7 +27,7 @@ public class Programmers_lv1_2 {    // 약수의 합
     }
 
     public static void main(String[] args) {
-        Programmers_lv1_2 prgrms = new Programmers_lv1_2();
+        Prgrms_lv1_12928 prgrms = new Prgrms_lv1_12928();
         System.out.println(prgrms.solution(1));
     }
 
