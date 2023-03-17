@@ -1,10 +1,10 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class bojB2_2920 {   // 음계
+public class BojB2_2920 {   // 음계
 
     public static void main(String[] args) throws IOException {
-        new bojB2_2920().solution();
+        new BojB2_2920().solution();
     }
 
     private void solution() throws IOException {

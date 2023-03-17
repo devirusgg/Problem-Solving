@@ -2,10 +2,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class bojS5_14916 {  // 거스름돈
+public class BojS5_14916 {  // 거스름돈
 
     public static void main(String[] args) throws IOException {
-        new bojS5_14916().solution();
+        new BojS5_14916().solution();
     }
 
     private void solution() throws IOException {

@@ -3,10 +3,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class bojS4_11399 {  // ATM
+public class BojS4_11399 {  // ATM
 
     public static void main(String[] args) throws IOException {
-        new bojS4_11399().solution();
+        new BojS4_11399().solution();
     }
 
     private void solution() throws IOException {    // 14384KB	128ms

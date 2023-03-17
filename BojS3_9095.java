@@ -1,9 +1,9 @@
 import java.io.*;
 
-public class bojS3_9095 {   // 1, 2, 3 더하기
+public class BojS3_9095 {   // 1, 2, 3 더하기
 
     public static void main(String[] args) throws IOException {
-        new bojS3_9095().solution();
+        new BojS3_9095().solution();
     }
 
     private void solution() throws IOException {

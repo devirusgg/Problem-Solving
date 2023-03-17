@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class bojB1_4796 {   // 캠핑
+public class BojB1_4796 {   // 캠핑
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -1,9 +1,9 @@
 import java.io.*;
 
-public class bojB1_1157 {   // 단어 공부
+public class BojB1_1157 {   // 단어 공부
 
     public static void main(String[] args) throws IOException {
-        new bojB1_1157().solution();
+        new BojB1_1157().solution();
     }
 
     // a ~ z : 97 ~ 122

@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class bojB2_5585 {   // 거스름돈
+public class BojB2_5585 {   // 거스름돈
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

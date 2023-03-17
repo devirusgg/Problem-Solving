@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class bojB3_14720 {  // 우유 축제
+public class BojB3_14720 {  // 우유 축제
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

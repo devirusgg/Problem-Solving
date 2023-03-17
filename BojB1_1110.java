@@ -2,10 +2,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class bojB1_1110 {   // 더하기 사이클
+public class BojB1_1110 {   // 더하기 사이클
 
     public static void main(String[] args) throws IOException {
-        new bojB1_1110().solution();
+        new BojB1_1110().solution();
     }
 
     private void solution() throws IOException {    // 14288KB  132ms

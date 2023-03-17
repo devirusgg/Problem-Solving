@@ -3,10 +3,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class bojB2_1152 {   // 단어의 개수
+public class BojB2_1152 {   // 단어의 개수
 
     public static void main(String[] args) throws IOException {
-        new bojB2_1152().solution();
+        new BojB2_1152().solution();
     }
 
     private void solution() throws IOException {
