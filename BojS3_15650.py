@@ -1,28 +1,27 @@
 # N과 M (2)
 import sys
 
+global n, m, resultList
 
-def dfs(n, m, depth):
+
+def solution():
+    global n, m, resultList
+    n, m = map(int, sys.stdin.readline().split())
+    resultList = []
+
+    dfs(0, 1, [])
+
+    for lst in resultList:
+        print(*lst)
+
+
+def dfs(depth, idx, lst):
     if depth == m:
-        if arr.count(0) == 0:
-            print(*arr)
-        arr[depth - 1] = 0
+        resultList.append(lst)
         return
-
-    for i in range(n):
-        if not visit[i]:
-            visit[i] = True
-            value = i + 1
-            if depth == 0:
-                arr[depth] = value
-            elif value > arr[depth - 1]:
-                arr[depth] = value
-            dfs(n, m, depth + 1)
-            visit[i] = False
+    for i in range(idx, n + 1):
+        dfs(depth + 1, i + 1, lst + [i])
 
 
 if __name__ == '__main__':
-    n, m = map(int, sys.stdin.readline().split())
-    visit = [False for _ in range(n)]
-    arr = [0 for _ in range(m)]
-    dfs(n, m, 0)
+    solution()
