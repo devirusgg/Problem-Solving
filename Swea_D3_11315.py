@@ -1,5 +1,4 @@
 # Swea_D3_11315_오목 판정
-# setRecursionLimit 설정 불가하므로 dfs로 문제 풀 수 없음
 global n, board, visit, cnt, dx, dy
 
 

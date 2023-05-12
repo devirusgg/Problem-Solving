@@ -1,7 +1,10 @@
 # Swea_D4_1861_정사각형 방
+"""
+"import sys" 가 제한되므로 "setRecursionLimit" 설정이 불가하여 해당문제는 dfs로 풀 수 없음
+"""
 import sys
-
 sys.setrecursionlimit(10 ** 6)
+
 global n, mv, graph, dx, dy, visit
 
 
