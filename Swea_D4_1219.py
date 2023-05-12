@@ -1,4 +1,4 @@
-# Swea_1219_길찾기
+# Swea_D4_1219_길찾기
 from collections import deque
 
 global tcNum, nodeCnt, visit, adjList, flag

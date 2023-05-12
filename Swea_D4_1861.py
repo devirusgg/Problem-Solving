@@ -1,4 +1,4 @@
-# Swea_1861_정사각형 방
+# Swea_D4_1861_정사각형 방
 import sys
 
 sys.setrecursionlimit(10 ** 6)

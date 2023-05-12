@@ -1,4 +1,4 @@
-# Swea_2819_격자판의 숫자 이어 붙이기
+# Swea_D4_2819_격자판의 숫자 이어 붙이기
 global graph, numbers, dx, dy
 
 
